@@ -1,0 +1,477 @@
+#
+# StatTrackers
+# by Auxilor
+#
+
+discover-recipes: false
+stat:
+  damage_dealt:
+    display: '&b造成伤害: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&b记录您的武器造成伤害'
+      name: '&e统计器 - 造成伤害数'
+      recipe:
+      - iron_sword
+      - iron_sword
+      - iron_sword
+      - iron_sword
+      - compass
+      - iron_sword
+      - iron_sword
+      - iron_sword
+      - iron_sword
+      craftable: false
+    applicable-to:
+    - sword
+    - bow
+    - trident
+    - axe
+  criticals_dealt:
+    display: '&b暴击伤害: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来追踪您所造成的暴击伤害'
+      name: '&e追踪器 - 暴击伤害'
+      recipe:
+      - iron_sword
+      - obsidian
+      - iron_sword
+      - obsidian
+      - compass
+      - obsidian
+      - iron_sword
+      - obsidian
+      - iron_sword
+      craftable: false
+    applicable-to:
+    - sword
+    - axe
+  item_damage:
+    display: '&b物品失去总耐久: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您的物品减少的总耐久度'
+      - '&8所有物品都可以使用'
+      name: '&e追踪器 - 物品失去总耐久'
+      recipe:
+      - air
+      - air
+      - air
+      - anvil
+      - compass
+      - anvil
+      - air
+      - air
+      - air
+      craftable: false
+    applicable-to:
+    - all
+  times_jumped:
+    display: '&b跳跃时间: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您的跳跃时间'
+      name: '&e追踪器 - 跳跃时间'
+      recipe:
+      - air
+      - slime_ball
+      - air
+      - slime_ball
+      - compass
+      - slime_ball
+      - air
+      - slime_ball
+      - air
+      craftable: false
+    applicable-to:
+    - boots
+  distance_sneaked:
+    display: '&b潜行距离: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您潜行的距离'
+      name: '&e追踪器 - 潜行距离'
+      recipe:
+      - air
+      - leather_boots
+      - air
+      - leather_boots
+      - compass
+      - leather_boots
+      - air
+      - leather_boots
+      - air
+      craftable: false
+    applicable-to:
+    - boots
+  headshots:
+    display: '&b爆头数: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您的爆头数'
+      name: '&e追踪器 - 爆头数'
+      recipe:
+      - air
+      - bow
+      - air
+      - bow
+      - compass
+      - bow
+      - air
+      - bow
+      - air
+      craftable: false
+    applicable-to:
+    - bow
+    - trident
+  distance_flown:
+    display: '&b飞行距离: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录飞行距离'
+      name: '&e追踪器 - 飞行距离'
+      recipe:
+      - air
+      - phantom_membrane
+      - air
+      - phantom_membrane
+      - compass
+      - phantom_membrane
+      - air
+      - phantom_membrane
+      - air
+      craftable: false
+    applicable-to:
+    - elytra
+  distance_jumped:
+    display: '&b跳跃距离: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来统计跳跃距离'
+      name: '&e追踪器 - 跳跃距离'
+      recipe:
+      - slime_ball
+      - leather_boots
+      - slime_ball
+      - leather_boots
+      - compass
+      - leather_boots
+      - slime_ball
+      - leather_boots
+      - slime_ball
+      craftable: false
+    applicable-to:
+    - boots
+  mobs_killed:
+    display: '&b击杀生物: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您的生物击杀数'
+      name: '&e追踪器 - 击杀生物'
+      recipe:
+      - air
+      - rotten_flesh
+      - air
+      - bone
+      - compass
+      - string
+      - air
+      - gunpowder
+      - air
+      craftable: false
+    applicable-to:
+    - sword
+    - bow
+    - trident
+    - axe
+  arrows_shot:
+    display: '&b发射箭矢: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您的箭矢发射数'
+      name: '&e追踪器 - 发射箭矢'
+      recipe:
+      - air
+      - arrow
+      - air
+      - arrow
+      - compass
+      - arrow
+      - air
+      - arrow
+      - air
+      craftable: false
+    applicable-to:
+    - bow
+  distance_travelled:
+    display: '&b行走距离: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您所行走的距离'
+      name: '&e追踪器 - 行走距离'
+      recipe:
+      - air
+      - paper
+      - air
+      - paper
+      - compass
+      - paper
+      - air
+      - paper
+      - air
+      craftable: false
+    applicable-to:
+    - boots
+  fish_caught:
+    display: '&b钓鱼数: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您所钓鱼的数量'
+      name: '&e追踪器 - 钓鱼数'
+      recipe:
+      - air
+      - fishing_rod
+      - air
+      - fishing_rod
+      - compass
+      - fishing_rod
+      - air
+      - fishing_rod
+      - air
+      craftable: false
+    applicable-to:
+    - fishing_rod
+  damage_taken:
+    display: '&b受到伤害: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您穿上这件装备时受到的伤害'
+      name: '&e追踪器 - 受到的伤害'
+      recipe:
+      - air
+      - iron_helmet
+      - air
+      - iron_chestplate
+      - compass
+      - iron_leggings
+      - air
+      - iron_boots
+      - air
+      craftable: false
+    applicable-to:
+    - helmet
+    - chestplate
+    - leggings
+    - boots
+    - elytra
+  distance_sprinted:
+    display: '&b疾跑距离: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8记录您的疾跑距离'
+      name: '&e追踪器 - 疾跑距离'
+      recipe:
+      - air
+      - golden_boots
+      - air
+      - golden_boots
+      - compass
+      - golden_boots
+      - air
+      - golden_boots
+      - air
+      craftable: false
+    applicable-to:
+    - boots
+  bosses_killed:
+    display: '&bBOSS击杀数: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您的BOSS击杀数'
+      name: '&e追踪器 - BOSS击杀'
+      recipe:
+      - air
+      - air
+      - air
+      - dragon_head
+      - compass
+      - dragon_head
+      - air
+      - air
+      - air
+      craftable: false
+    applicable-to:
+    - sword
+    - bow
+    - trident
+    - axe
+  damage_blocked:
+    display: '&b阻挡伤害: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录盾牌格挡的伤害'
+      name: '&e追踪器 - 阻挡伤害'
+      recipe:
+      - air
+      - shield
+      - air
+      - shield
+      - compass
+      - shield
+      - air
+      - shield
+      - air
+      craftable: false
+    applicable-to:
+    - shield
+  players_killed:
+    display: '&b击杀玩家数: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您击杀玩家次数'
+      name: '&e追踪器 - 击杀玩家数'
+      recipe:
+      - diamond_sword
+      - diamond_sword
+      - diamond_sword
+      - diamond_sword
+      - compass
+      - diamond_sword
+      - diamond_sword
+      - diamond_sword
+      - diamond_sword
+      craftable: false
+    applicable-to:
+    - sword
+    - bow
+    - trident
+    - axe
+  experience_absorbed:
+    display: '&b吸收经验: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您所吸收的经验数'
+      - '&8当你穿着盔甲时。'
+      name: '&e追踪器 - 吸取经验'
+      recipe:
+      - air
+      - emerald
+      - air
+      - emerald
+      - compass
+      - emerald
+      - air
+      - emerald
+      - air
+      craftable: false
+    applicable-to:
+    - helmet
+    - chestplate
+    - leggings
+    - boots
+    - elytra
+  blocks_broken:
+    display: '&b破坏方块: %value%'
+    tracker:
+      item: compass
+      lore:
+      - '&8手持需要统计的物品'
+      - '&8然后输入指令/stattrackers'
+      - '&8把统计器放进去'
+      - '&8用来记录您的方块破坏数'
+      name: '&e追踪器 - 破坏方块'
+      recipe:
+      - iron_pickaxe
+      - iron_pickaxe
+      - iron_pickaxe
+      - iron_pickaxe
+      - compass
+      - iron_pickaxe
+      - iron_pickaxe
+      - iron_pickaxe
+      - iron_pickaxe
+      craftable: false
+    applicable-to:
+    - pickaxe
+    - axe
+    - shovel
+    - hoe
+    - shears
+gui:
+  rows: 1
+  title: 统计器
+display-at-top: false
+

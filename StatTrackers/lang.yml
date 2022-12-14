@@ -1,0 +1,13 @@
+messages:
+  prefix: "&d&l统计者&r &8» &r"
+  no-permission: "&c你没有权限这么做!"
+  not-player: "&c这条指令必须由玩家执行"
+  invalid-command: "&c未知子命令!"
+  reloaded: "重载插件! 耗时 %time%ms"
+  invalid-stat: "&c找不到对应的统计信息!"
+  needs-player: "&c您必须指定一名玩家"
+  invalid-player: "&c无效的玩家"
+  needs-stat: "&c您必须指定统计信息"
+  give-success: "将 &a%stat% 追踪器&r 给予 &a%recipient%"
+  item-cannot-have-trackers: "&c您必须持有可以使用追踪器的物品"
+  cannot-apply: "&c您不能将%tracker% &c应用于此物品"
