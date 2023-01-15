@@ -1,0 +1,8 @@
+* [Airtight](Airtight)
+* [Magnetic](Magnetic)
+* [Void Traversal](Void-Traversal)
+* [Breathable](Breathable)
+* [Hazmat](Hazmat)
+* [Radioactive](Radioactive)
+* [Insulated](Insulated)
+* [Undying](Undying)
