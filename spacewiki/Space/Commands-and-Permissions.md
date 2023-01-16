@@ -14,28 +14,28 @@
 | `/space wiki` | 显示Wiki界面. | `space.wiki` |
 | `/space hooks` | 列出当前与Space接口链接的插件以及版本 | `space.hooks` |
 | `/space unstuck` | 如果你因重力或某种原因被卡在障碍物中，可以使用指令来防卡 | `space.unstuck` |
-| `/space module <grant/revoke/toggle> <module>` | Adds/removes/toggles modules on the handheld armor part | `space.module` |
-| `/space reload` | Reloads the Space configuration files. | `space.reload` |
-| `/space station` | On first use, purchases a Space Station.<br>On every subsequent use, teleports the player to their Space Station. | `space.station.create` |
-| `/space station reset <player>` | Resets your Space Station, or that of another player. | `space.station.reset`, `space.station.reset.other` |
-| `/space station tp <player>` | Teleports the player to another player's Space Station. | `space.station.teleport` |
-| `/space summon <entity> [(-baby)]` | Summons a Space entity. | `space.summon` |
-| `/space version` | Displays the current version of Space. | `space.version` |
-| `/space enchant <enchantment>` | Applies the enchantment to the handheld item | `space.enchant` |
-| `/space schematic <schematic>` | Summons the schematic at your position | `space.schematic` |
-| `/space gui <gui>` | Opens the relevant GUI | `space.gui.fabricator`, `space.gui.modularworkbench`, `space.gui.printer`, `space.gui.quantumworkbench`, `space.gui.trashcan`, `space.gui.rocket`, `space.gui.atomiser` |
+| `/space module <grant/revoke/toggle> <module>` | 在你手持的装备上添加/删除/切换模块 | `space.module` |
+| `/space reload` | 重新加载Space配置文件 | `space.reload` |
+| `/space station` | 第一次使用时将会提示您购买一个空间站<br>当购买完后再使用这个指令会传送到空间站 | `space.station.create` |
+| `/space station reset <player>` | 重置一个玩家的空间站 | `space.station.reset`, `space.station.reset.other` |
+| `/space station tp <player>` | 传送到一个玩家的空间站 | `space.station.teleport` |
+| `/space summon <entity> [(-baby)]` | 召唤一个Space生物 | `space.summon` |
+| `/space version` | 显示当前的Space版本 | `space.version` |
+| `/space enchant <enchantment>` | 为你的手持物品添加一个附魔 | `space.enchant` |
+| `/space schematic <schematic>` | 在你当前的位置生成一个Space建筑 | `space.schematic` |
+| `/space gui <gui>` | 打开相关的Gui | `space.gui.fabricator`, `space.gui.modularworkbench`, `space.gui.printer`, `space.gui.quantumworkbench`, `space.gui.trashcan`, `space.gui.rocket`, `space.gui.atomiser` |
 
-# Permissions
+# 权限
 
 | Permission | Description |
 | --- | --- |
-| `space.admin` | **(DEPRECATED; Use `space.*` instead)** Permits everything, including `/space admin`. |
-| `space.advancement` | Permits usage of `/space advancement (grant\|revoke) <player> <module>` (if [Crazy Advancements API](https://www.spigotmc.org/resources/crazy-advancements-api.51741/) is installed). |
-| `space.backup` | Permits usage of `/space backup`. |
-| `space.charge` | Permits usage of `/space charge [(all) (set)] [charge]`. |
-| `space.commandsigns.create` | Permits creation of [Command Signs](Command-Signs). |
-| `space.commandsigns.use` | Permits usage of Command Signs. |
-| `space.debug` | Permits usage of [Debug Wands](Debug-Wand). |
+| `space.admin` | **(已经弃用; 请使用 `space.*` 来代替)** 允许使用任何指令, 包括 `/space admin`. |
+| `space.advancement` | 允许使用指令 `/space advancement (grant\|revoke) <player> <module>` (如果你安装了 [Crazy Advancements API](https://www.spigotmc.org/resources/crazy-advancements-api.51741/) 插件). |
+| `space.backup` | 允许使用指令： `/space backup`. |
+| `space.charge` | 允许使用指令： `/space charge [(all) (set)] [charge]`. |
+| `space.commandsigns.create` | 允许使用指令： [告示牌命令](/Space/Command-Signs). |
+| `space.commandsigns.use` | 允许使用告示牌指令. |
+| `space.debug` | Permits usage of [Debug Wands](/Space/Debug-Wand). |
 | `space.give` | Permits usage of `/space give <player> <item> (<count>)`. |
 | `space.guide` | Permits usage of `/space guide`. |
 | `space.schematic` | Permits usage of `/space schematic`. |
